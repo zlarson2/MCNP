@@ -328,11 +328,11 @@ c
 FC44   SW hot cell    
 F44:N  110
 c
-FC54   NW hot cell
-F54:N  111
+c      FC54   NW hot cell
+c      F54:N  111
 c
-FC64   NE hot cell
-F64:N  112
+c      FC64   NE hot cell
+c      F64:N  112
 c      ---
 c
 c      ---
