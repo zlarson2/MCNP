@@ -218,7 +218,7 @@ c      ---
 55     PZ  1000         $facility ceiling
 c      ---
 60     PX  530          $NE/SE shielding right wall
-61     PX -545          $SE shielding left wall/SW hot cell right wall
+61     PX -535          $SE shielding left wall/SW hot cell right wall
 62     PY  1030         $SE/SW shielding front wall
 63     PY -1030         $SE/SW shielding back wall
 c      ---
@@ -230,8 +230,6 @@ c      ---
 c      ---
 72     PY  1000         $NW/NE hot cell front wall
 73     PY  1030         $NW/NE shielding front wall
-c 72     PY  3030         $NW/NE hot cell front wall
-c 73     PY  3060         $NW/NE shielding front wall
 c      ---
 c      end facility geometry
 c      ---
@@ -337,6 +335,7 @@ c      ---
 c
 c      ---
 c      dose
+DF0    IU 2 FAC 1 LOG IC 10
 c      ---
 c
 c      ---
@@ -402,6 +401,12 @@ c      ---
 c
 c      ---
 c      end materials
+c      ---
+c
+c      ---
+c      weight window generators
+c      ---
+c      WWG    XX XXX 0 j j j j 0
 c      ---
 c
 c      ---
